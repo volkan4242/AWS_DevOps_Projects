@@ -342,7 +342,7 @@ Select the certificate for HTTPS
 
 - We will create an A record with alias to ALB so that we can use our domain name to reach our application.
 
-![](images/create record.png)
+![](images/create-record.png)
 
 - Lets check our application using our DNS. We can securely connect to our application!
 
