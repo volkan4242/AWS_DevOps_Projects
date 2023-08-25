@@ -2,7 +2,7 @@
 
 [_Project Source_](https://www.udemy.com/course/devopsprojects/?src=sac&kw=devops+projects)
 
-![](images/PROJECT.png)
+![](images/Project.png)
 
 ## Pre-requisites
 
