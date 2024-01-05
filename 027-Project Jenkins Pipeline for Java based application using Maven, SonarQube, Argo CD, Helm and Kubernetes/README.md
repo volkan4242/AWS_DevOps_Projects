@@ -18,8 +18,7 @@ Steps:
 1.1 Git plugin
 1.2 Maven Integration plugin
 
-      ![](images/docker-pipeline.png)
-
+![](images/docker-pipeline.png)
 
       ![](images/sonarscanner.png)
 
@@ -34,19 +33,13 @@ Steps:
          cd sonarqube-9.4.0.54424/bin/linux-x86-64/
          ./sonar.sh start
 
-      ![](images/sonarqube.png)
+![](images/sonarqube.png)
 
-
-      ![](images/sonartoken.png)
-
-
+![](images/sonartoken.png)
 
        **1.4 Add sonartoken to jenkins credentials**
 
-         ![](images/sonarqube2.png)
-
-
-
+![](images/sonarqube2.png)
 
       **1.5 Docker Slave Configuration**
 
@@ -89,12 +82,12 @@ Steps:
         Stage 7: Use a testing framework like Selenium to run user acceptance tests on the deployed application.
         Stage 8: Use Argo CD to promote the application to a production environment.
 
-        ![](images/pipeline.png)
+![](images/pipeline.png)
 
     5. Set up Argo CD:
         Install Argo CD on the Kubernetes cluster.
 
-       ![](images/argocd.png)
+![](images/argocd.png)
 
         Set up a Git repository for Argo CD to track the changes in the Helm charts and Kubernetes manifests.
         Create a Helm chart for the Java application that includes the Kubernetes manifests and Helm values.
@@ -104,10 +97,9 @@ Steps:
        6.1 Add the Argo CD API token to Jenkins credentials.
        6.2 Update the Jenkins pipeline to include the Argo CD deployment stage.
 
+![](images/argocd2.png)
 
-       ![](images/argocd2.png)
-
-       ![](images/argocd3.png)
+![](images/argocd3.png)
 
     7. Run the Jenkins pipeline:
        7.1 Trigger the Jenkins pipeline to start the CI/CD process for the Java application.
