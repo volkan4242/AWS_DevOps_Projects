@@ -16,6 +16,7 @@
 
 **Main.tf**
 
+```sh
 resource "aws_instance" "web" {
 ami = "ami-06aa3f7caf3a30282" #change ami id for different region
 instance_type = "t2.large"
@@ -61,9 +62,11 @@ tags = {
 Name = "Jenkins-VM-SG"
 }
 }
+```
 
 **Provider.tf**
 
+```sh
 terraform {
 required_providers {
 aws = {
@@ -79,6 +82,7 @@ provider "aws" {
 region = "us-east-1" #change region as per you requirement
 
 }
+```
 
 **Install.sh**
 
