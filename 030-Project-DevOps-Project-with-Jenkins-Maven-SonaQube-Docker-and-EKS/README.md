@@ -2,9 +2,7 @@
 
 [_Project Source_](https://www.youtube.com/watch?v=e42hIYkvxoQ)
 
-![](images/Project.png)
-
-
+![](images/project.png)
 
 ### Step-1: Install and Configure the Jenkins-Master & Jenkins-Agent
 
@@ -487,11 +485,7 @@ argocd cluster list
 
 ![](images/argocd.png)
 
-
-
 ![](images/argocd-cluster.png)
-
-
 
 ### Step-8: Configure Argocd and Deploy pods on EKS Cluster
 
@@ -507,14 +501,9 @@ Namespaces: Default
 
 ![](images/argocd-2.png)
 
-
-
 ![](images/app.png)
 
-  
-![](images/pipeline-4.png)
-
-
+![](images/pipe-line-4.png)
 
 ### Step-14: Cleanup
 
@@ -523,6 +512,6 @@ kubectl delete deployment.apps/virtualtechbox-regapp       //it will delete the 
 
  kubectl delete service/virtualtechbox-service              //it will delete the service
 
-eksctl delete cluster virtualtechbox --region us-eat-1     OR    eksctl delete cluster 
+eksctl delete cluster virtualtechbox --region us-eat-1     OR    eksctl delete cluster
 --region=us-eat-1--name=virtualtechbox-cluster      //it will delete the EKS cluster
 ```
